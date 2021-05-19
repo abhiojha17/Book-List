@@ -65,6 +65,9 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
+.addbook-btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 .table{
     border-top: 1px solid rgb(179, 179, 179);
     border-bottom: 1px solid rgb(179, 179, 179);
@@ -126,4 +129,37 @@ body{
     padding-top: 4px;
     border-radius: 4px;
 
+}
+@media(max-width:700px){
+    .alert{
+        text-align: center;
+        height: 10%;
+        width:30%;
+        background-color: lightblue;
+        color: black;
+        font-size: 10px;
+        padding-top: 4px;
+        border-radius: 4px;;
+    }
+    .alert-danger{
+        text-align: center;
+        height: 10%;
+        width:30%;
+        background-color: rgb(216, 84, 84);
+        color: black;
+        font-size: 10px;
+        padding-top: 4px;
+        border-radius: 4px;
+    }
+    .alert-success{
+        text-align: center;
+        height: 10%;
+        width:30%;
+        background-color: rgb(171, 235, 171);
+        color: black;
+        font-size: 10px;
+        padding-top: 4px;
+        border-radius: 4px;
+    
+    }
 }
